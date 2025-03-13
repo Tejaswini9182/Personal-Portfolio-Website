@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tejaswini Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <a href="#home">Tejaswini<span>Bussa</span></a>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="C:\Users\Bussa Tejaswini\OneDrive\Desktop\portfolio\WhatsApp Image 2025-01-12 at 10.18.20 PM (1).JPG" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">I am <span>Tejaswini Bussa</span></h1>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                    Pursuing a B.Tech in CSE (AI & ML), seeking a software or web development role to apply skills in Python, Java, SQL, and front-end technologies. Passionate about building data-driven solutions and contributing to dynamic teams.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/Tejaswini9182" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bussa-tejaswini/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about section-->
+    <section id="about">
+        <div class="about-container">
+            <h1 class="about-title">About Me</h1>
+            <div class="about-details">
+                <p><strong>Name:</strong> Tejaswini Bussa</p>
+                <p><strong>Father’s Name:</strong>Mallesham Bussa</p>
+                <p><strong>College:</strong> Vignan’s Institute of Management and Technology for Women</p>
+                <p><strong>Branch:</strong> Computer Science and Engineering (AI&ML)</p>
+                <p><strong>Year:</strong> 3rd Year</p>
+                <p><strong>Email:</strong> <a href="mailto:your.email@example.com">bussatejaswini9182@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/bussa-tejaswini">LinkedIn Profile</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/Tejaswini9182">GitHub Profile</a></p>
+                <p><strong>Place:</strong>Nagole,Hyderabad,Telangana</p>
+            </div>
+        </div>
+    </section>
+    
+    <!--skills section-->
+    <section id="skills">
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="skills-container">
+            <ul>
+                <li><b>Technologies:</b> Artificial Intelligence, Machine Learning</li>
+                <li><b>Frontend Technologies:</b> HTML, CSS, JavaScript</li>
+                <li><b>Version Control:</b> Git, GitHub</li>
+                <li><b>Python Libraries:</b> Numpy, Pandas, Matplotlib, Scikit-Learn</li>
+                <li><b>Database Management:</b> SQL</li>
+                <li><b>Core Concepts:</b> Data Structures, Software Engineering</li>
+            </ul>
+        </div>
+
+    <!--certificates-->
+        <div class="btn-container">
+            <button id="certificates-btn">View Certificates</button>
+        </div>
+    
+        <div id="certificates-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>My Certificates</h3>
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1FTym4jaXNAxyDVSb21kxTVjQh3in_8sv/view?usp=drivesdk" target="_blank">Artificial Intelligence Certification(From Infosys)</a></li>
+                    <li><a href="https://coursera.org/share/5756ef62f046c06e2c60b19236b5d7f2" target="_blank">Artificial Intelligence Certification(From Coursera)</a></li>
+                    <li><a href="https://drive.google.com/file/d/1K5Nc3of44Ukg6YfPQY9M3GCASdb9S9Ts/view?usp=drivesdk" target="_blank">Machine Learning Certification(From Coursera)</a></li>
+                    <li><a href="https://drive.google.com/file/d/1janEShq2bBpBS7QneOt0iUqtnBeIQRGI/view?usp=drivesdk" target="_blank">Programming in Java(From NPTEL)</a></li>
+                    <li><a href="https://drive.google.com/file/d/1k7XioL2Fx2AmpPHlD7wF5hFNXF3laHLg/view?usp=drivesdk" target="_blank">Joy of Computing using Python(From NPTEL)</a></li>
+                    <li><a href="https://drive.google.com/file/d/1NVzdyJh8StARqdmqmYuD37U8OiiJC1bX/view?usp=drivesdk" target="_blank">Python Datascience(From Infosys)</a></li>
+                    <li><a href="https://www.hackerrank.com/certificates/a818f7fe5b56" target="_blank">Python Intermediate (From HackerRank)</a></li>
+                    <li><a href="https://www.mygreatlearning.com/certificate/PJFOPSDG" target="_blank">SQL(From GreatLearning)</a></li>
+                    <li><a href="https://1drv.ms/b/c/c7abb7d0af829e7f/ERsHRJhLywxNrvbJSPUTQxABMEJiXSkKcdvOSPwQWcDgbA?e=G3emA0" target="_blank">Web Development(HTML,CSS,JavaScript) From IBM SkillsBuild</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="btn">
+            <a href="#home"><button>Back to Home</button></a>
+        </div>
+    </section>
+    
+ <!-- Projects Section -->
+<section id="projects">
+    <h2>PROJECTS</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <a href="C:\Users\Bussa Tejaswini\OneDrive\Desktop\portfolio" target="_blank">
+                <b>Personal Portfolio</b>
+            </a>
+            <p>This is my personal portfolio website, designed to showcase my skills, projects, certifications, and achievements in AI & ML. It features a sleek, responsive design with sections for About, Skills, Projects, Certifications, and Contact. Built using modern web technologies, it highlights my expertise and serves as a digital resume!</p>
+            <b>Technologies Used:</b>HTML,CSS,JavaScript
+        </div>
+        <div class="project-card">
+            <a href="https://github.com/Tejaswini9182/Fake-News-Detection-in-Text-and-Images-using-ML-Models-and-Python-Libraries" target="_blank">
+                <b>Fake News Detection in Text and Images:</b>
+            </a>
+            <p>Developed an ML model for fake news detection in text & images using Logistic Regression, Decision Trees (scikit-learn), and CNNs (TensorFlow). Enhanced misinformation detection accuracy with advanced classification techniques.</p>
+            <b>Technologies Used:</b> Python, Machine Learning Models
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/Tejaswini9182/Chikungunya-Prediction" target="_blank">
+                <b>Chikungunya Prediction:</b>
+            </a>
+            <p>Built a machine learning model using Linear Regression, Logistic Regression, and KNN to predict chikungunya based on symptoms, improving diagnosis accuracy.  </p>
+            <b>Technologies Used:</b> Python, Machine Learning Models
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/Tejaswini9182/Language-Translator" target="_blank">
+                <b>Language Translation App:</b>
+            </a>
+            <p> Developed a Python app for language translation using GoogleTrans, gTTS for text-tospeech, and IPython display for audio playback. Integrated an interactive interface with
+                ipywidgets for multilingual translation and speech output.
+           </p>
+            <b>Technologies Used:</b> Python
+        </div>
+        <div class="project-card">
+            <a href="https://github.com/Tejaswini9182/TODO-LIST" target="_blank">
+                <b>Todo List:</b>
+            </a>
+            <p>Built an interactive To-Do List using HTML, CSS, and JavaScript with task addition, deletion, and local storage support.</p>
+            <b>Technologies Used:</b>HTML,CSS,JavaScript
+        </div>
+        <div class="project-card">
+            <a href="https://github.com/Tejaswini9182/Heart-Disease-Prediction" target="_blank">
+                <b>Heart Disease Prediction:</b>
+            </a>
+            <p>Developed a model using Logistic Regression, Decision Tree, KNN, and K-Means Clustering, with NumPy, Pandas, Matplotlib, and Plotly for data preprocessing and visualization. Evaluated performance using accuracy, confusion matrix, precision, recall, F1score, and clustering metrics.
+                Technologies Used: Python, Scikit-Learn, Pandas, Matplotlib, Plotly
+         </p>
+            <b>Technologies Used:</b> Python, Scikit-Learn, Pandas, Matplotlib
+        </div>
+        <div class="project-card">
+            <a href="https://github.com/yourgithub/memory-card-game" target="_blank">
+                <b>Memory Card Game:</b>
+            </a>
+            <p>Developed a Memory Card Game using HTML, CSS, and JavaScript with flip-card matching and shuffle logic for an interactive experience.</p>
+            <b>Technologies Used:</b> HTML, CSS, JavaScript
+        </div>
+    </div>
+
+    <div class="btn">
+        <a href="#home"><button>Back to Home</button></a>
+    </div>
+</section>
+
+<!--contact-->
+<div id="contact">
+    <div class="contact-box">
+        <h2>Contact Me</h2>
+        <p><i class="fas fa-phone"></i> +91 9182838211</p>
+        <p><i class="fas fa-envelope"></i> bussatejaswini9182@gmail.com</p>
+        <button class="btnn">Back to Home</button>
+    </div>
+</div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
